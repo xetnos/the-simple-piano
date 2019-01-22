@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Simple Piano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+  <section class="header">
+    <h1>Simple Piano with Javascript</h1>
+  </section>
+  <div class="keys">
+    <div class="key" data-key="65">
+      <kbd>A</kbd>
+      <span class="sound">do-c</span>
+    </div>
+    <div class="key" data-key="83">
+      <kbd>S</kbd>
+      <span class="sound">re-d</span>
+    </div>
+    <div class="key" data-key="68">
+      <kbd>D</kbd>
+      <span class="sound">mi-e</span>
+    </div>
+    <div class="key" data-key="70">
+      <kbd>F</kbd>
+      <span class="sound">fa-f</span>
+    </div>
+    <div class="key" data-key="72">
+      <kbd>H</kbd>
+      <span class="sound">sol-g</span>
+    </div>
+    <div class="key" data-key="74">
+      <kbd>J</kbd>
+      <span class="sound">la-a</span>
+    </div>
+    <div class="key" data-key="75">
+      <kbd>K</kbd>
+      <span class="sound">si-b</span>
+    </div>
+    <div class="key" data-key="76">
+      <kbd>L</kbd>
+      <span class="sound">octave-do-c</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/do-c.m4a"></audio>
+  <audio data-key="83" src="sounds/re-d.m4a"></audio>
+  <audio data-key="68" src="sounds/mi-e.m4a"></audio>
+  <audio data-key="70" src="sounds/fa-f.m4a"></audio>
+  <audio data-key="72" src="sounds/sol-g.m4a"></audio>
+  <audio data-key="74" src="sounds/la-a.m4a"></audio>
+  <audio data-key="75" src="sounds/si-b.m4a"></audio>
+  <audio data-key="76" src="sounds/octave-do-c.m4a"></audio>
+
+
+
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
